@@ -41,7 +41,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    margin: 0 30px;
+    margin: 0px 30px;
     font-weight: lighter;
     font-size: 22px;
 }
@@ -291,7 +291,7 @@ section {
     margin: 20px;
     background-color: white;
     font-size: 20px;
-    color: #39a6b2;
+    color: blue;
 }
   
 /* secondary page hero */
@@ -302,4 +302,8 @@ section {
     color: red;
 }
   
-
+  /* these two colors will override the ones above in .hero */
+  .hero-secondary {
+    background-color: black;
+    color: red;
+  }
